@@ -1,3 +1,81 @@
+macro_win_alt: macro_win_alt{
+compatible = "zmk,behavior-macro";
+label = "macro_win_alt";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp TILDE>;
+};
+macro_win_mn: macro_win_mn{
+compatible = "zmk,behavior-macro";
+label = "macro_win_mn";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp M>;
+};
+macro_dsk_pv: macro_dsk_pv{
+compatible = "zmk,behavior-macro";
+label = "macro_dsk_pv";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_ARROW>;
+};
+macro_dsk_nx: macro_dsk_nx{
+compatible = "zmk,behavior-macro";
+label = "macro_dsk_nx";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp RIGHT_ARROW>;
+};
+macro_win_pv: macro_win_pv{
+compatible = "zmk,behavior-macro";
+label = "macro_win_pv";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp LEFT_COMMAND>, <&kp LEFT_ARROW>;
+};
+macro_win_nx: macro_win_nx{
+compatible = "zmk,behavior-macro";
+label = "macro_win_nx";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp LEFT_COMMAND>, <&kp RIGHT_ARROW>;
+};
+macro_win_mx: macro_win_mx{
+compatible = "zmk,behavior-macro";
+label = "macro_win_mx";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp RETURN>;
+};
+macro_win_br: macro_win_br{
+compatible = "zmk,behavior-macro";
+label = "macro_win_br";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp K>;
+};
+macro_win_tr: macro_win_tr{
+compatible = "zmk,behavior-macro";
+label = "macro_win_tr";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp I>;
+};
+macro_win_tl: macro_win_tl{
+compatible = "zmk,behavior-macro";
+label = "macro_win_tl";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp U>;
+};
+macro_win_bl: macro_win_bl{
+compatible = "zmk,behavior-macro";
+label = "macro_win_bl";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp J>;
+};
+macro_win_rh: macro_win_rh{
+compatible = "zmk,behavior-macro";
+label = "macro_win_rh";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp RIGHT_ARROW>;
+};
+macro_win_lh: macro_win_lh{
+compatible = "zmk,behavior-macro";
+label = "macro_win_lh";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LALT>, <&kp LEFT_ARROW>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
