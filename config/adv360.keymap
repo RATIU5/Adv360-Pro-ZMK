@@ -57,7 +57,7 @@
         layer_CNTRL {
             bindings = <
  &trans      &trans  &trans  &trans  &trans   &trans            &trans                                                  &trans          &trans          &trans         &trans           &trans         &trans  &trans
- &trans  &kp ESCAPE  &kp F7  &kp F8  &kp F9  &kp F10             &none                                                   &none   &kp LC(LEFT_ARROW)   &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))    &kp LC(RIGHT_ARROW)  &kp BACKSPACE  &trans
+ &trans  &kp ESCAPE  &kp F7  &kp F8  &kp F9  &kp F10             &none                                                   &none   &macro_dsk_pv   &macro_win_pv  &macro_win_nx    &macro_dsk_nx  &kp BACKSPACE  &trans
  &trans     &kp TAB  &kp F4  &kp F5  &kp F6  &kp F11             &none  &trans  &trans   &none   &none  &trans  &trans   &none  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW     &kp DELETE  &trans
  &trans      &trans  &kp F1  &kp F2  &kp F3  &kp F12             &none   &none  &trans   &none   &none  &trans   &none   &none        &kp HOME   &kp PAGE_DOWN    &kp PAGE_UP          &kp END     &kp ESCAPE  &trans
  &trans      &trans  &trans  &trans  &trans                     &trans  &trans  &trans                  &trans  &trans  &trans                          &trans         &trans           &trans         &trans  &trans
@@ -78,8 +78,8 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans         &trans          &trans         &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &kp LC(LA(U))   &kp LC(LA(RET))  &kp LC(LA(I))  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(LEFT_ARROW))  &kp LCMD(TILDE)  &kp LC(LA(RIGHT_ARROW))  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(J))   &kp LCMD(M)  &kp LC(LA(K))  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(LEFT_ARROW))  &kp LWIN(TILDE)  &kp LC(LA(RIGHT_ARROW))  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(J))   &kp LWIN(M)  &kp LC(LA(K))  &trans  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                 &trans          &trans         &trans  &trans  &trans
             >;
         };
