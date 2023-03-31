@@ -78,8 +78,8 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans         &trans          &trans         &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &kp LC(LA(U))   &kp LC(LA(RET))  &kp LC(LA(I))  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(LEFT_ARROW))  &macro_win_alt  &macro_win_rh  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &macro_win_bl   &macro_win_mn  &macro_win_br  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(LEFT_ARROW))  &macro_win_alt  &kp LC(LA(RIGHT_ARROW))  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(J))   &macro_win_mn  &kp LC(LA(K))  &trans  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                 &trans          &trans         &trans  &trans  &trans
             >;
         };
