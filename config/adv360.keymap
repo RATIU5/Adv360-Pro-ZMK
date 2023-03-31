@@ -74,7 +74,7 @@
             >;
         };
 
-        layer_Layer__4 {
+        layer_WINDOW {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans         &trans          &trans         &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &macro_win_tl   &macro_win_mx  &macro_win_tr  &trans  &trans
