@@ -74,10 +74,10 @@
             >;
         };
 
-        layer_WINDOW {
+        layer_Layer__4 {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans         &trans          &trans         &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &macro_win_tl   &macro_win_mx  &macro_win_tr  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &kp LC(LA(U))   &macro_win_mx  &macro_win_tr  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &macro_win_lh  &macro_win_alt  &macro_win_rh  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &macro_win_bl   &macro_win_mn  &macro_win_br  &trans  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                 &trans          &trans         &trans  &trans  &trans
