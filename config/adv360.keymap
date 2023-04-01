@@ -40,7 +40,7 @@
    &kp TAB  &lt 4 Q      &kp W     &kp E             &kp R   &kp T                    &none                                                                          &none   &kp Y              &kp U      &kp I      &kp O          &lt 4 P   &kp BSLH
    &kp ESC  &lt 3 A      &kp S     &kp D             &kp F   &kp G                    &none       &mo 2  &kp LALT   &none   &none  &kp RIGHT_CONTROL      &mo 2      &none   &kp H              &kp J      &kp K      &kp L  &lt 3 SEMICOLON    &kp SQT
  &kp LSHFT  &lt 2 Z      &kp X     &kp C             &kp V   &kp B                    &none       &none  &kp HOME   &none   &none          &kp PG_UP      &none      &none   &kp N              &kp M  &kp COMMA    &kp DOT      &lt 2 SLASH  &kp RSHFT
-     &mo 3    &none  &kp LCTRL  &kp LALT  &kp LEFT_COMMAND                    &kp BACKSPACE  &kp DELETE   &kp END                          &kp PG_DN  &kp ENTER  &kp SPACE          &kp RIGHT_COMMAND   &kp RALT  &kp RCTRL            &none      &mo 3
+     &mo 3    &kp LA(LG(TAB))  &kp LCTRL  &kp LALT  &kp LEFT_COMMAND                    &kp BACKSPACE  &kp DELETE   &kp END                          &kp PG_DN  &kp ENTER  &kp SPACE          &kp RIGHT_COMMAND   &kp RALT  &kp RCTRL            &kp LG(TAB)      &mo 3
             >;
         };
 
