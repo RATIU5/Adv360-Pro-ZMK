@@ -1,4 +1,4 @@
-# ADV360-PRO-ZMK (DVORAK)
+# ADV360-PRO-ZMK (QWERTY)
 
 ![Layout image](assets/layout.png)
 
