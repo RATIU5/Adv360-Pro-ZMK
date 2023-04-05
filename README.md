@@ -1,6 +1,6 @@
 # ADV360-PRO-ZMK (DVORAK)
 
-[Layout image](assets/layout.png)
+![Layout image](assets/layout.png)
 
 ## To build Firmware in GitHub Actions
 
