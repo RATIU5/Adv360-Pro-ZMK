@@ -57,11 +57,11 @@
 
         layer_CNTRL {
             bindings = <
- &trans      &trans  &trans  &trans  &trans   &trans            &trans                                                  &trans          &trans          &trans         &trans           &trans         &trans  &trans
- &trans  &kp ESCAPE  &kp F7  &kp F8  &kp F9  &kp F10             &none                                                   &none   &macro_dsk_pv   &macro_win_pv  &macro_win_nx    &macro_dsk_nx  &kp BACKSPACE  &trans
- &trans     &kp TAB  &kp F4  &kp F5  &kp F6  &kp F11             &none  &trans  &trans   &none   &none  &trans  &trans   &none  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW     &kp DELETE  &trans
- &trans      &trans  &kp F1  &kp F2  &kp F3  &kp F12             &none   &none  &trans   &none   &none  &trans   &none   &none        &kp HOME   &kp PAGE_DOWN    &kp PAGE_UP          &kp END     &kp ESCAPE  &trans
- &trans      &trans  &trans  &trans  &trans                     &trans  &trans  &trans                  &trans  &trans  &trans                          &trans         &trans           &trans         &trans  &trans
+        &kp F1         &kp F2                             &kp F3           &kp F4     &kp F5           &kp F6            &trans                                                  &trans          &kp F7          &kp F8        &kp F9          &kp F10       &kp F11       &kp F12
+ &kp C_BRI_DEC  &kp C_BRI_INC  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_SEARCH  &kp PSCRN  &kp PAUSE_BREAK            &trans                                                  &trans      &kp C_PREV        &kp C_PP    &kp C_NEXT       &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP
+        &trans         &trans                             &trans           &trans     &trans           &trans            &trans  &trans  &trans   &none   &none  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW        &trans        &trans
+        &trans         &trans                             &trans           &trans     &trans           &trans             &none   &none  &trans   &none   &none  &trans   &none   &none          &trans          &trans        &trans           &trans        &trans        &trans
+        &trans         &trans                             &trans           &trans     &trans                             &trans  &trans  &trans                  &trans  &trans  &trans                          &trans        &trans           &trans        &trans        &trans
             >;
         };
 
