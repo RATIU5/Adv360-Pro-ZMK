@@ -29,19 +29,147 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+
+		mpg: pipe_grave {
+				compatible = "zmk,behavior-mod-morph";
+				label = "PIPE_GRAVE";
+				#binding-cells = <0>;
+				bindings = <&kp PIPE>, <&kp GRAVE>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		mpo: plus_one {
+				compatible = "zmk,behavior-mod-morph";
+				label = "PLUS_ONE";
+				#binding-cells = <0>;
+				bindings = <&kp PLUS>, <&kp N1>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		mdt: dollar_tilde {
+				compatible = "zmk,behavior-mod-morph";
+				label = "DOLLAR_TILDE";
+				#binding-cells = <0>;
+				bindings = <&kp DOLLAR>, <&kp TILDE>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		mlbkt: left_bracket_two {
+				compatible = "zmk,behavior-mod-morph";
+				label = "LEFT_BRACKET_TWO";
+				#binding-cells = <0>;
+				bindings = <&kp LBKT>, <&kp N2>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		mlbrt: left_brace_three {
+				compatible = "zmk,behavior-mod-morph";
+				label = "LEFT_BRACE_THREE";
+				#binding-cells = <0>;
+				bindings = <&kp LBRC>, <&kp N3>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		mlpf: left_parenthesis_four {
+				compatible = "zmk,behavior-mod-morph";
+				label = "LEFT_PARENTHESIS_FOUR";
+				#binding-cells = <0>;
+				bindings = <&kp LPAR>, <&kp N4>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		maf: ampersand_five {
+				compatible = "zmk,behavior-mod-morph";
+				label = "AMPERSAND_FIVE";
+				#binding-cells = <0>;
+				bindings = <&kp AMPS>, <&kp N5>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		mbkdl: backspace_delete {
+				compatible = "zmk,behavior-mod-morph";
+				label = "BACKSPACE_DELETE";
+				#binding-cells = <0>;
+				bindings = <&kp BSPC>, <&kp DEL>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		meqs: equal_six {
+				compatible = "zmk,behavior-mod-morph";
+				label = "EQUAL_SIX";
+				#binding-cells = <0>;
+				bindings = <&kp KP_EQUAL>, <&kp N6>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		mrps: right_parenthesis_seven {
+				compatible = "zmk,behavior-mod-morph";
+				label = "RIGHT_PARENTHESIS_SEVEN";
+				#binding-cells = <0>;
+				bindings = <&kp RPAR>, <&kp N7>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		mrbre: right_brace_eight {
+				compatible = "zmk,behavior-mod-morph";
+				label = "RIGHT_BRACE_EIGHT";
+				#binding-cells = <0>;
+				bindings = <&kp RBRC>, <&kp N8>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		mrbkn: right_bracket_nine {
+				compatible = "zmk,behavior-mod-morph";
+				label = "RIGHT_BRACKET_NINE";
+				#binding-cells = <0>;
+				bindings = <&kp RBKT>, <&kp N9>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		masz: asterisk_zero {
+				compatible = "zmk,behavior-mod-morph";
+				label = "ASTERISK_ZERO";
+				#binding-cells = <0>;
+				bindings = <&kp KP_ASTERISK>, <&kp N0>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		atcr: at_caret {
+				compatible = "zmk,behavior-mod-morph";
+				label = "AT_CARET";
+				#binding-cells = <0>;
+				bindings = <&kp AT>, <&kp CARET>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		expe: exclamation_percent {
+				compatible = "zmk,behavior-mod-morph";
+				label = "EXCLAMATION_PERCENT";
+				#binding-cells = <0>;
+				bindings = <&kp EXCL>, <&kp PRCNT>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
+		bshs: backslash_hash {
+				compatible = "zmk,behavior-mod-morph";
+				label = "BACKSLASH_HASH";
+				#binding-cells = <0>;
+				bindings = <&kp BSLH>, <&kp HASH>;
+				mods = <(MOD_LSFT|MOD_RSFT)>;
+		};
+
   };
 
     keymap {
         compatible = "zmk,keymap";
 
-
         default_layer {
             bindings = <
-      &kp PIPE              &out  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND                   &tog 1                                                                                          &none  &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS
-       &kp TAB     &kp SEMICOLON         &kp COMMA      &kp PERIOD                 &kp P          &kp Y                 &kp HOME                                                                                    &kp PAGE_UP         &kp F           &kp G         &kp C         &kp R         &kp L  &kp SLASH
- &mt LCTRL ESC             &kp A             &kp O           &kp E                 &kp U          &kp I                  &kp END  &kp LEFT_COMMAND     &kp LALT   &none   &none  &kp RIGHT_CONTROL  &kp LEFT_ALT  &kp PAGE_DOWN         &kp D           &kp H         &kp T         &kp N         &kp S  &kp MINUS
-     &kp LSHFT  &kp SINGLE_QUOTE             &kp Q           &kp J                 &kp K          &kp X                    &none             &none  &kp K_PASTE   &none   &none         &kp K_UNDO         &none          &none         &kp B           &kp M         &kp W         &kp V         &kp Z  &kp RSHFT
-         &mo 2        &kp DOLLAR     &kp BACKSLASH  &kp LEFT_ARROW       &kp RIGHT_ARROW                           &kp BACKSPACE        &kp DELETE   &kp K_COPY                         &kp K_REDO     &kp ENTER      &kp SPACE                &kp DOWN_ARROW  &kp UP_ARROW     &kp SLASH         &none      &mo 3
+          &mpg              &mpo            &mlbkt          &mlbrt                 &mlpf           &maf                   &tog 1                                                                                   &none         &meqs           &mrps        &mrbre        &mrbkn         &masz      &expe
+       &kp TAB     &kp SEMICOLON         &kp COMMA      &kp PERIOD                 &kp P          &kp Y                 &kp HOME                                                                                   &none         &kp F           &kp G         &kp C         &kp R         &kp L      &bshs
+ &mt LCTRL ESC             &kp A             &kp O           &kp E                 &kp U          &kp I                  &kp END  &kp LEFT_COMMAND     &kp LALT   &none   &none  &kp RIGHT_CONTROL      &mo 2      &none         &kp D           &kp H         &kp T         &kp N         &kp S   &kp BSLH
+     &kp LSHFT  &kp SINGLE_QUOTE             &kp Q           &kp J                 &kp K          &kp X                    &none             &none  &kp K_PASTE   &none   &none          &kp PG_UP      &none      &none         &kp B           &kp M         &kp W         &kp V         &kp Z  &kp RSHFT
+         &mo 2              &mdt     &kp BACKSLASH  &kp LEFT_ARROW       &kp RIGHT_ARROW                                  &mbkdl           &kp TAB   &kp K_COPY                          &kp PG_DN  &kp ENTER  &kp SPACE                &kp DOWN_ARROW  &kp UP_ARROW     &kp RCTRL         &atcr      &mo 3
             >;
         };
 
