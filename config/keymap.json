@@ -1,0 +1,45 @@
+{
+  "keyboard": "adv360",
+  "keymap": "default",
+  "layout": "LAYOUT",
+  "layer_names": [
+    "base",
+    "KEYPAD",
+    "FUNCTION",
+    "NAVIGATION",
+    "Layer #4"
+  ],
+  "layers": [
+    [
+        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",               "&none",                                                                   "&none",  "&none",  "&none",     "&none",   "&none",            "&none",  "&none",
+        "&none",  "&kp Q",  "&kp W",  "&kp F",  "&kp P",  "&kp B",               "&none",                                                                   "&none",  "&kp J",  "&kp L",     "&kp U",   "&kp Y", "&kp SINGLE_QUOTE",  "&none",
+        "&none",  "&kp A",  "&kp R",  "&kp S",  "&kp T",  "&kp G",               "&none",   "&none",  "&none",  "&none",  "&none",  "&none",  "&none",      "&none",  "&kp M",  "&kp N",     "&kp E",   "&kp I",            "&kp O",  "&none",
+        "&none",  "&kp Z",  "&kp X",  "&kp C",  "&kp D",  "&kp V",               "&none",   "&none",  "&none",  "&none",  "&none",  "&none",  "&none",      "&none",  "&kp K",  "&kp H", "&kp COMMA", "&kp DOT",     "&kp QUESTION",  "&none",
+        "&none",  "&none",  "&none",  "&none",  "&none",                     "&kp SPACE", "&kp RET",  "&none",                      "&none",  "&mo 1", "&kp RSHIFT",            "&none",     "&none",   "&none",            "&none",  "&none"
+    ], [
+       "&trans",       "&trans",       "&trans",       "&trans",       "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",       "&trans", "&kp NUMBER_7", "&kp NUMBER_8", "&kp NUMBER_9", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&kp NUMBER_0", "&kp NUMBER_4", "&kp NUMBER_5", "&kp NUMBER_6", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",       "&trans", "&kp NUMBER_1", "&kp NUMBER_2", "&kp NUMBER_3", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",       "&trans",       "&trans",       "&trans",       "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ], [
+       "&trans",  "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans",     "&trans",       "&trans",     "&trans", "&trans", "&trans",
+       "&trans", "&kp F12", "&kp F7", "&kp F8", "&kp F9", "&trans",           "&trans",                                                             "&trans", "&trans", "&kp K_PREV", "&kp K_VOL_UP", "&kp K_NEXT", "&trans", "&trans",
+       "&trans", "&kp F11", "&kp F4", "&kp F5", "&kp F6", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",     "&trans", "&kp K_VOL_DN",     "&trans", "&trans", "&trans",
+       "&trans", "&kp F10", "&kp F1", "&kp F2", "&kp F3", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",     "&trans",       "&trans",     "&trans", "&trans", "&trans",
+       "&trans",  "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",               "&trans",       "&trans",     "&trans", "&trans", "&trans"
+    ], [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans",        "&trans",         "&trans",         "&trans",           "&trans",          "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans",   "&kp PAGE_UP",  "&kp BACKSPACE",        "&kp DEL",            "&none",           "&none", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&kp PAGE_DOWN", "&kp LEFT_ARROW", "&kp DOWN_ARROW",     "&kp UP_ARROW", "&kp RIGHT_ARROW", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",       "&kp INS",        "&kp TAB",  "&kp LESS_THAN", "&kp GREATER_THAN",         "&kp RET", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                          "&trans",         "&trans",           "&trans",          "&trans", "&trans"
+    ], [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ]
+  ]
+}
