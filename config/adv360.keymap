@@ -78,7 +78,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include "macros.dtsi"
+// #include "macros.dtsi"
 
 #define XXX &none
 #define ___ &trans
