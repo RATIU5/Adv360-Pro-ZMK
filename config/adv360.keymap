@@ -136,7 +136,6 @@
 						quick-tap-ms = <QUICK_TAP_MS>;
 						bindings = <&kp>, <&kp>;
 						hold-trigger-key-positions = <KEYS_R THUMBS>;
-						hold-trigger-on-release;
 				};
 		};
 
