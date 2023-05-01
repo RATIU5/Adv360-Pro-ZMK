@@ -15,6 +15,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+#define XXX &none
+#define ___ &trans
+
 / {
   behaviors {
     #include "macros.dtsi"
@@ -36,11 +39,18 @@
 
         default_layer {
             bindings = <
-  &none   &none   &none   &none   &none   &none                &none                                                        &none   &none   &none      &none    &none             &none   &none
-  &none   &kp Q   &kp W   &kp F   &kp P   &kp B                &none                                                        &none   &kp J   &kp L      &kp U    &kp Y  &kp SINGLE_QUOTE   &none
-  &none   &kp A   &kp R   &kp S   &kp T   &kp G                &none    &none   &none   &none   &none   &none   &none       &none   &kp M   &kp N      &kp E    &kp I             &kp O   &none
-  &none   &kp Z   &kp X   &kp C   &kp D   &kp V                &none    &none   &none   &none   &none   &none   &none       &none   &kp K   &kp H  &kp COMMA  &kp DOT      &kp QUESTION   &none
-  &none   &none   &none   &none   &none                    &kp SPACE  &kp RET   &none                   &none   &mo 1  &kp RSHIFT           &none      &none    &none             &none   &none
+//╭─────┬────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────╮                                                                                               ╭─────┬────────────┬─────────────┬────────────┬────────────┬────────────┬─────╮
+    XXX   XXX          XXX           XXX           XXX           XXX           XXX                                                                                                   XXX   XXX          XXX           XXX          XXX          XXX          XXX
+//├─────┼────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────┤                                                                                               ├─────┼────────────┼─────────────┼────────────┼────────────┼────────────┬─────┤
+		XXX   &kp Q        &kp W         &kp F         &kp P         &kp B         XXX                                                                                                   XXX   &kp J        &kp L         &kp U        &kp Y        &kp SQT      XXX
+//├─────┼────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────┤               ╭─────────────┬─────────────╮         ╭─────────────┬────────────╮              ├─────┼────────────┼─────────────┼────────────┼────────────┼────────────┬─────┤
+		XXX   &kp A        &kp R         &kp S         &kp T         &kp G         XXX                     XXX           XXX         XXX XXX   XXX           XXX                         XXX   &kp M        &kp N         &kp E        &kp I        &kp O        XXX
+//├─────┼────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────╯ ╭─────────────┼─────────────┼─────────────┤         ├─────────────┼────────────┼────────────╮ ╰─────┼────────────┼─────────────┼────────────┼────────────┼────────────┬─────┤
+		XXX   &kp Z        &kp X         &kp C         &kp D         &kp V                   XXX           XXX           XXX         XXX XXX   XXX           XXX          XXX                  &kp K        &kp H         &kp COMMA    &kp DOT      &kp QMARK    XXX
+//├─────┼────────────┼─────────────┼─────────────┼─────────────┼─────────────╯       │             │             ├─────────────┤         ├─────────────┤            │            │       ╰────────────┼─────────────┼────────────┼────────────┼────────────┬─────┤
+		XXX   XXX          XXX           XXX           XXX                                   &kp SPACE     &kp RET       XXX                   XXX           &mo 1        &kp RSHIFT                        XXX           XXX          XXX          XXX          XXX
+//╰─────┴────────────┴─────────────┴─────────────┴─────────────╯                     ╰─────────────┴─────────────┴─────────────╯         ╰─────────────┴────────────┴────────────╯                    ╰─────────────┴────────────┴────────────┴────────────┴─────╯
+
             >;
         };
 
