@@ -147,6 +147,27 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+        hm_slash: hm_slash {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HM_SLASH";
+            bindings =
+                <&kp>,
+                <&slash>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            flavor = "balanced";
+        };
+        hm_and_or: hm_and_or {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HM_AND_OR";
+            bindings =
+                <&kp>,
+                <&and_or>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+        };
     };
 
     keymap {
@@ -174,11 +195,11 @@
 
         layer_2 {
             bindings = <
-&trans                &trans   &trans    &trans                  &trans  &trans  &trans                                                  &trans      &trans               &trans                    &trans              &trans                 &trans  &trans
-&trans                 &than   &brack    &brace                  &paren   &none  &trans                                                  &trans  &kp K_REDO          &kp K_PASTE                &kp K_COPY           &kp K_CUT             &kp K_UNDO  &trans
-&trans  &hm LEFT_SHIFT GRAVE   &slash   &and_or  &hm LEFT_COMMAND EQUAL   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &none  &hm RCMD LEFT_ARROW  &hm RIGHT_ALT DOWN_ARROW  &hm RCTRL UP_ARROW  &hm RIGHT_SHIFT RIGHT  &trans
-&trans               &athash  &dolper  &starcar               &kp MINUS   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &none             &kp HOME             &kp PAGE_DOWN         &kp PAGE_UP                &kp END  &trans
-&trans                &trans   &trans    &trans                  &trans          &trans  &trans  &trans                  &trans  &trans  &trans                           &trans                    &trans              &trans                 &trans  &trans
+&trans                &trans             &trans                 &trans                  &trans  &trans  &trans                                                  &trans      &trans               &trans                    &trans              &trans                 &trans  &trans
+&trans                 &than             &brack                 &brace                  &paren   &none  &trans                                                  &trans  &kp K_REDO          &kp K_PASTE                &kp K_COPY           &kp K_CUT             &kp K_UNDO  &trans
+&trans  &hm LEFT_SHIFT GRAVE  &hm_slash LCTRL 0  &hm_and_or LEFT_ALT 0  &hm LEFT_COMMAND EQUAL   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &none  &hm RCMD LEFT_ARROW  &hm RIGHT_ALT DOWN_ARROW  &hm RCTRL UP_ARROW  &hm RIGHT_SHIFT RIGHT  &trans
+&trans               &athash            &dolper               &starcar               &kp MINUS   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &none             &kp HOME             &kp PAGE_DOWN         &kp PAGE_UP                &kp END  &trans
+&trans                &trans             &trans                 &trans                  &trans          &trans  &trans  &trans                  &trans  &trans  &trans                           &trans                    &trans              &trans                 &trans  &trans
             >;
         };
     };
