@@ -156,7 +156,7 @@
             bindings = <
 &none             &none        &none           &none               &none  &none            &none                                                        &none  &none                &none            &none        &none              &none  &none
 &none             &kp Q        &kp W           &kp F               &kp P  &kp B            &none                                                        &none  &kp J                &kp L            &kp U        &kp Y   &kp SINGLE_QUOTE  &none
-&none  &mt LEFT_SHIFT A  &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_COMMAND T  &kp G            &none      &none  &none  &none  &none  &none      &none      &none  &kp M  &mt RIGHT_COMMAND N  &mt RIGHT_ALT E  &mt RCTRL I  &mt RIGHT_SHIFT O  &none
+&none  &hm LEFT_SHIFT A  &hm LCTRL R  &hm LEFT_ALT S  &hm LEFT_COMMAND T  &kp G            &none      &none  &none  &none  &none  &none      &none      &none  &kp M  &hm RIGHT_COMMAND N  &hm RIGHT_ALT E  &hm RCTRL I  &hm RIGHT_SHIFT O  &none
 &none             &kp Z        &kp X           &kp C               &kp D  &kp V            &none      &none  &none  &none  &none  &none      &none      &none  &kp K                &kp H        &commsemi    &pericolo           &queexcl  &none
 &none             &none        &none           &none               &none         &lt 2 BACKSPACE  &lt 1 TAB  &none                &none  &kp ENTER  &kp SPACE                       &none            &none        &none              &none  &none
             >;
@@ -174,11 +174,11 @@
 
         layer_2 {
             bindings = <
-&trans     &trans   &trans    &trans     &trans  &trans  &trans                                                  &trans      &trans               &trans                    &trans              &trans                 &trans  &trans
-&trans      &than   &brack    &brace     &paren   &none  &trans                                                  &trans  &kp K_REDO          &kp K_PASTE                &kp K_COPY           &kp K_CUT             &kp K_UNDO  &trans
-&trans  &kp GRAVE   &slash   &and_or  &kp EQUAL   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DELETE  &hm RCMD LEFT_ARROW  &hm RIGHT_ALT DOWN_ARROW  &hm RCTRL UP_ARROW  &hm RIGHT_SHIFT RIGHT  &trans
-&trans    &athash  &dolper  &starcar  &kp MINUS   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp ESC             &kp HOME             &kp PAGE_DOWN         &kp PAGE_UP                &kp END  &trans
-&trans     &trans   &trans    &trans     &trans          &trans  &trans  &trans                  &trans  &trans  &trans                           &trans                    &trans              &trans                 &trans  &trans
+&trans                &trans   &trans    &trans                  &trans  &trans  &trans                                                  &trans      &trans               &trans                    &trans              &trans                 &trans  &trans
+&trans                 &than   &brack    &brace                  &paren   &none  &trans                                                  &trans  &kp K_REDO          &kp K_PASTE                &kp K_COPY           &kp K_CUT             &kp K_UNDO  &trans
+&trans  &hm LEFT_SHIFT GRAVE   &slash   &and_or  &hm LEFT_COMMAND EQUAL   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &none  &hm RCMD LEFT_ARROW  &hm RIGHT_ALT DOWN_ARROW  &hm RCTRL UP_ARROW  &hm RIGHT_SHIFT RIGHT  &trans
+&trans               &athash  &dolper  &starcar               &kp MINUS   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &none             &kp HOME             &kp PAGE_DOWN         &kp PAGE_UP                &kp END  &trans
+&trans                &trans   &trans    &trans                  &trans          &trans  &trans  &trans                  &trans  &trans  &trans                           &trans                    &trans              &trans                 &trans  &trans
             >;
         };
     };
