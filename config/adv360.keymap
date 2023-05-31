@@ -121,7 +121,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "COMMSEMI";
             bindings =
-                <&kp KP_COMMA>,
+                <&kp COMMA>,
                 <&kp SEMI>;
 
             #binding-cells = <0>;
@@ -154,11 +154,11 @@
 
         default_layer {
             bindings = <
-&none  &none  &none  &none  &none  &none            &none                                                        &none  &none  &none      &none      &none             &none  &none
-&none  &kp Q  &kp W  &kp F  &kp P  &kp B            &none                                                        &none  &kp J  &kp L      &kp U      &kp Y  &kp SINGLE_QUOTE  &none
-&none  &kp A  &kp R  &kp S  &kp T  &kp G            &none      &none  &none  &none  &none  &none      &none      &none  &kp M  &kp N      &kp E      &kp I             &kp O  &none
-&none  &kp Z  &kp X  &kp C  &kp D  &kp V            &none      &none  &none  &none  &none  &none      &none      &none  &kp K  &kp H  &commsemi  &pericolo          &queexcl  &none
-&none  &none  &none  &none  &none         &lt 2 BACKSPACE  &lt 1 TAB  &none                &none  &kp ENTER  &kp SPACE         &none      &none      &none             &none  &none
+&none             &none        &none           &none               &none  &none            &none                                                        &none  &none                &none            &none        &none              &none  &none
+&none             &kp Q        &kp W           &kp F               &kp P  &kp B            &none                                                        &none  &kp J                &kp L            &kp U        &kp Y   &kp SINGLE_QUOTE  &none
+&none  &mt LEFT_SHIFT A  &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_COMMAND T  &kp G            &none      &none  &none  &none  &none  &none      &none      &none  &kp M  &mt RIGHT_COMMAND N  &mt RIGHT_ALT E  &mt RCTRL I  &mt RIGHT_SHIFT O  &none
+&none             &kp Z        &kp X           &kp C               &kp D  &kp V            &none      &none  &none  &none  &none  &none      &none      &none  &kp K                &kp H        &commsemi    &pericolo           &queexcl  &none
+&none             &none        &none           &none               &none         &lt 2 BACKSPACE  &lt 1 TAB  &none                &none  &kp ENTER  &kp SPACE                       &none            &none        &none              &none  &none
             >;
         };
 
