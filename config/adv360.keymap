@@ -185,41 +185,41 @@
 
         default_layer {
             bindings = <
-&none             &none        &none           &none               &none  &none            &none                                                        &none  &none                &none            &none        &none              &none  &none
-&none             &kp Q        &kp W           &kp F               &kp P  &kp B            &none                                                        &none  &kp J                &kp L            &kp U        &kp Y   &kp SINGLE_QUOTE  &none
-&none  &hm LEFT_SHIFT A  &hm LCTRL R  &hm LEFT_ALT S  &hm LEFT_COMMAND T  &kp G            &none      &none  &none  &none  &none  &none      &none      &none  &kp M  &hm RIGHT_COMMAND N  &hm RIGHT_ALT E  &hm RCTRL I  &hm RIGHT_SHIFT O  &none
-&none             &kp Z        &kp X           &kp C               &kp D  &kp V            &none      &none  &none  &none  &none  &none      &none      &none  &kp K                &kp H        &commsemi    &pericolo   &hold_quexcl 2 0  &none
-&none             &none        &none           &none               &none         &lt 2 BACKSPACE  &lt 1 TAB  &none                &none  &kp ENTER  &kp SPACE                       &none            &none        &none              &none  &none
+&none             &none        &none           &none               &none  &none  &none                                                        &none  &none                &none            &none        &none              &none  &none
+&none             &kp Q        &kp W           &kp F               &kp P  &kp B  &none                                                        &none  &kp J                &kp L            &kp U        &kp Y   &kp SINGLE_QUOTE  &none
+&none  &hm LEFT_SHIFT A  &hm LCTRL R  &hm LEFT_ALT S  &hm LEFT_COMMAND T  &kp G  &none          &none  &none  &none  &none  &none      &none  &none  &kp M  &hm RIGHT_COMMAND N  &hm RIGHT_ALT E  &hm RCTRL I  &hm RIGHT_SHIFT O  &none
+&none             &kp Z        &kp X           &kp C               &kp D  &kp V  &none          &none  &none  &none  &none  &none      &none  &none  &kp K                &kp H        &commsemi    &pericolo   &hold_quexcl 1 0  &none
+&none             &none        &none           &none               &none         &mo 2  &kp BACKSPACE  &none                &none  &kp SPACE  &mo 1                       &none            &none        &none              &none  &none
             >;
         };
 
-        layer_1 {
-            bindings = <
-&trans                      &trans                 &trans                    &trans                &trans  &trans  &trans                                                  &trans   &trans       &trans            &trans        &trans           &trans  &trans
-&trans                       &none        &kp KP_NUMBER_7           &kp KP_NUMBER_8       &kp KP_NUMBER_9   &none  &trans                                                  &trans  &kp F12       &kp F7            &kp F8        &kp F9            &none  &trans
-&trans  &hm LEFT_SHIFT KP_NUMBER_0  &hm LCTRL KP_NUMBER_4  &hm LEFT_ALT KP_NUMBER_5  &hm LCMD KP_NUMBER_6   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F10  &hm RCMD F4  &hm RIGHT_ALT F5  &hm RCTRL F6  &kp RIGHT_SHIFT  &trans
-&trans                       &none              &kp KP_N1           &kp KP_NUMBER_2       &kp KP_NUMBER_3   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F11       &kp F1            &kp F2        &kp F3            &none  &trans
-&trans                      &trans                 &trans                    &trans                &trans          &trans  &trans  &trans                  &trans  &trans  &trans                &trans            &trans        &trans           &trans  &trans
-            >;
-        };
-
-        layer_2 {
+        sym {
             bindings = <
 &trans                &trans                &trans                         &trans          &trans  &trans  &trans                                                  &trans  &trans                   &trans                           &trans                 &trans                 &trans  &trans
 &trans             &kp CARET         &kp LESS_THAN               &kp LEFT_BRACKET        &kp PIPE   &none  &trans                                                  &trans   &none                   &kp AT                &kp RIGHT_BRACKET       &kp GREATER_THAN            &kp PERCENT  &trans
 &trans  &hm LEFT_SHIFT EQUAL  &hm LCTRL LEFT_BRACE  &hm LEFT_ALT LEFT_PARENTHESIS  &hm LCMD UNDER   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &none  &hm RIGHT_COMMAND MINUS  &hm RIGHT_ALT RIGHT_PARENTHESIS  &hm RCTRL RIGHT_BRACE  &hm RIGHT_SHIFT SLASH  &trans
 &trans             &kp GRAVE              &kp AMPS                       &kp STAR   &kp BACKSLASH   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &none                 &kp PLUS                       &kp DOLLAR               &kp HASH              &kp TILDE  &trans
-&trans                &trans                &trans                         &trans          &trans          &trans  &trans  &trans                  &trans  &trans  &trans                           &trans                           &trans                 &trans                 &trans  &trans
+&trans                &trans                &trans                         &trans          &trans           &mo 3  &trans  &trans                  &trans  &trans  &trans                           &trans                           &trans                 &trans                 &trans  &trans
             >;
         };
 
-        layer_3 {
+        ext {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &kp HOME   &kp PAGE_DOWN   &kp PAGE_UP          &kp END  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans                  &trans          &trans        &trans           &trans  &trans
+&trans          &trans        &trans            &trans            &trans  &trans  &trans                                                  &trans  &trans          &trans          &trans        &trans           &trans  &trans
+&trans      &kp K_MUTE    &kp K_PREV  &kp K_PLAY_PAUSE        &kp K_NEXT   &none  &trans                                                  &trans  &trans   &kp BACKSPACE         &kp TAB       &kp DEL       &kp ESCAPE  &trans
+&trans  &kp LEFT_SHIFT     &kp LCTRL      &kp LEFT_ALT  &kp LEFT_COMMAND   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&trans         &kp ESC  &kp C_VOL_DN      &kp C_VOL_UP      &kp C_REPEAT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &kp HOME   &kp PAGE_DOWN   &kp PAGE_UP          &kp END  &trans
+&trans          &trans        &trans            &trans            &trans          &trans  &trans  &trans                  &trans  &trans   &mo 3                  &trans          &trans        &trans           &trans  &trans
+            >;
+        };
+
+        num {
+            bindings = <
+&trans           &trans           &trans           &trans           &trans  &trans  &trans                                                  &trans  &trans             &trans         &trans     &trans           &trans  &trans
+&trans           &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans                                                  &trans  &trans             &trans         &trans     &trans           &trans  &trans
+&trans  &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RCTRL  &kp RIGHT_SHIFT  &trans
+&trans           &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans         &trans     &trans           &trans  &trans
+&trans           &trans           &trans           &trans           &trans          &trans  &trans  &trans                  &trans  &trans  &trans                     &trans         &trans     &trans           &trans  &trans
             >;
         };
     };
