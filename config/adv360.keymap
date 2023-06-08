@@ -27,96 +27,6 @@
                 <&kp>,
                 <&kp>;
         };
-        paren: paren {
-            compatible = "zmk,behavior-mod-morph";
-            label = "PAREN";
-            bindings =
-                <&kp LEFT_PARENTHESIS>,
-                <&kp RIGHT_PARENTHESIS>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        brace: brace {
-            compatible = "zmk,behavior-mod-morph";
-            label = "BRACE";
-            bindings =
-                <&kp LEFT_BRACE>,
-                <&kp RIGHT_BRACE>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        brack: brack {
-            compatible = "zmk,behavior-mod-morph";
-            label = "BRACK";
-            bindings =
-                <&kp LEFT_BRACKET>,
-                <&kp RIGHT_BRACKET>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        than: than {
-            compatible = "zmk,behavior-mod-morph";
-            label = "THAN";
-            bindings =
-                <&kp LESS_THAN>,
-                <&kp GREATER_THAN>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        slash: slash {
-            compatible = "zmk,behavior-mod-morph";
-            label = "SLASH";
-            bindings =
-                <&kp SLASH>,
-                <&kp BSLH>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        and_or: and_or {
-            compatible = "zmk,behavior-mod-morph";
-            label = "AND_OR";
-            bindings =
-                <&kp AMPERSAND>,
-                <&kp PIPE>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        athash: athash {
-            compatible = "zmk,behavior-mod-morph";
-            label = "ATHASH";
-            bindings =
-                <&kp AT>,
-                <&kp HASH>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        dolper: dolper {
-            compatible = "zmk,behavior-mod-morph";
-            label = "DOLPER";
-            bindings =
-                <&kp DOLLAR>,
-                <&kp PERCENT>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        starcar: starcar {
-            compatible = "zmk,behavior-mod-morph";
-            label = "STARCAR";
-            bindings =
-                <&kp STAR>,
-                <&kp CARET>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
         commsemi: commsemi {
             compatible = "zmk,behavior-mod-morph";
             label = "COMMSEMI";
@@ -147,27 +57,6 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-        hm_slash: hm_slash {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HM_SLASH";
-            bindings =
-                <&kp>,
-                <&slash>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            flavor = "balanced";
-        };
-        hm_and_or: hm_and_or {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HM_AND_OR";
-            bindings =
-                <&kp>,
-                <&and_or>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-        };
         hold_quexcl: hold_quexcl {
             compatible = "zmk,behavior-hold-tap";
             label = "HOLD_QUEXCL";
@@ -188,7 +77,7 @@
 &none             &none        &none           &none               &none  &none  &none                                                        &none  &none                &none            &none        &none              &none  &none
 &none             &kp Q        &kp W           &kp F               &kp P  &kp B  &none                                                        &none  &kp J                &kp L            &kp U        &kp Y   &kp SINGLE_QUOTE  &none
 &none  &hm LEFT_SHIFT A  &hm LCTRL R  &hm LEFT_ALT S  &hm LEFT_COMMAND T  &kp G  &none          &none  &none  &none  &none  &none      &none  &none  &kp M  &hm RIGHT_COMMAND N  &hm RIGHT_ALT E  &hm RCTRL I  &hm RIGHT_SHIFT O  &none
-&none             &kp Z        &kp X           &kp C               &kp D  &kp V  &none          &none  &none  &none  &none  &none      &none  &none  &kp K                &kp H        &commsemi    &pericolo   &hold_quexcl 1 0  &none
+&none             &kp Z        &kp X           &kp C               &kp D  &kp V  &none          &none  &none  &none  &none  &none      &none  &none  &kp K                &kp H        &commsemi    &pericolo           &queexcl  &none
 &none             &none        &none           &none               &none         &mo 2  &kp BACKSPACE  &none                &none  &kp SPACE  &mo 1                       &none            &none        &none              &none  &none
             >;
         };
