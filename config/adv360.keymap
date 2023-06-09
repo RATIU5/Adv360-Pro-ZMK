@@ -20,9 +20,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick_tap_ms = <175>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <225>;
+            quick_tap_ms = <190>;
+            flavor = "balanced";
             bindings =
                 <&kp>,
                 <&kp>;
@@ -72,19 +72,19 @@
     combos {
         compatible = "zmk,combos";
 
-        ent {
+        return {
             bindings = <&kp RET>;
             key-positions = <65 64>;
         };
 
-        bsp {
+        backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <25 24>;
+            key-positions = <24 25>;
         };
 
-        esc {
+        escape {
             bindings = <&kp ESC>;
-            key-positions = <17 16>;
+            key-positions = <16 17>;
         };
 
         tab {
