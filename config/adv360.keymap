@@ -72,19 +72,19 @@
     combos {
         compatible = "zmk,combos";
 
-        return {
+        ent {
             bindings = <&kp RET>;
             key-positions = <65 64>;
         };
 
-        backspace {
+        bsp {
             bindings = <&kp BACKSPACE>;
-            key-positions = <24 25>;
+            key-positions = <25 24>;
         };
 
-        escape {
+        esc {
             bindings = <&kp ESC>;
-            key-positions = <16 17>;
+            key-positions = <17 16>;
         };
 
         tab {
