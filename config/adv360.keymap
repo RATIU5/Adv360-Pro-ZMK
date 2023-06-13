@@ -22,7 +22,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick_tap_ms = <250>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             bindings =
                 <&kp>,
                 <&kp>;
