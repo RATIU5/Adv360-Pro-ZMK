@@ -138,11 +138,11 @@
 
         sym {
             bindings = <
-&trans                &trans                &trans                         &trans          &trans  &trans  &trans                                                  &trans  &trans                   &trans                           &trans                 &trans                 &trans  &trans
-&trans             &kp CARET         &kp LESS_THAN               &kp LEFT_BRACKET        &kp PIPE   &none  &trans                                                  &trans   &none                   &kp AT                &kp RIGHT_BRACKET       &kp GREATER_THAN            &kp PERCENT  &trans
-&trans  &hm LEFT_SHIFT EQUAL  &hm LCTRL LEFT_BRACE  &hm LEFT_ALT LEFT_PARENTHESIS  &hm LCMD UNDER   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &none  &hm RIGHT_COMMAND MINUS  &hm RIGHT_ALT RIGHT_PARENTHESIS  &hm RCTRL RIGHT_BRACE  &hm RIGHT_SHIFT SLASH  &trans
-&trans             &kp GRAVE              &kp AMPS                       &kp STAR   &kp BACKSLASH   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &none                 &kp PLUS                       &kp DOLLAR               &kp HASH              &kp TILDE  &trans
-&trans                &trans                &trans                         &trans          &trans          &trans   &mo 3  &trans                  &trans  &trans  &trans                           &trans                           &trans                 &trans                 &trans  &trans
+&trans     &trans          &trans                &trans         &trans  &trans  &trans                                                  &trans  &trans     &trans                 &trans            &trans       &trans  &trans
+&trans  &kp CARET   &kp LESS_THAN      &kp LEFT_BRACKET       &kp PIPE   &none  &trans                                                  &trans   &none     &kp AT      &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp PERCENT  &trans
+&trans  &kp EQUAL  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS      &kp UNDER   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &none  &kp MINUS  &kp RIGHT_PARENTHESIS   &kp RIGHT_BRACE    &kp SLASH  &trans
+&trans  &kp GRAVE        &kp AMPS              &kp STAR  &kp BACKSLASH   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &none   &kp PLUS             &kp DOLLAR          &kp HASH    &kp TILDE  &trans
+&trans     &trans          &trans                &trans         &trans          &trans   &mo 3  &trans                  &trans  &trans  &trans             &trans                 &trans            &trans       &trans  &trans
             >;
         };
 
@@ -158,11 +158,11 @@
 
         num {
             bindings = <
-&trans           &trans           &trans           &trans           &trans  &trans  &trans                                                  &trans  &trans             &trans         &trans     &trans           &trans  &trans
-&trans           &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans                                                  &trans  &trans             &trans         &trans     &trans           &trans  &trans
-&trans  &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RCTRL  &kp RIGHT_SHIFT  &trans
-&trans           &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans         &trans     &trans           &trans  &trans
-&trans           &trans           &trans           &trans           &trans          &trans  &trans  &trans                  &trans  &trans  &trans                     &trans         &trans     &trans           &trans  &trans
+&trans           &trans           &trans           &trans           &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans           &trans           &trans           &trans          &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
