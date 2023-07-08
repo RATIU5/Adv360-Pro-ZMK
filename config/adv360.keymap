@@ -71,56 +71,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        return {
-            bindings = <&kp RET>;
-            key-positions = <65 64>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <24 25>;
-        };
-
-        escape {
-            bindings = <&kp ESC>;
-            key-positions = <16 17>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <50 51>;
-        };
-
-        lctrl {
-            bindings = <&kp LCTRL>;
-            key-positions = <29 30>;
-        };
-
-        rctrl {
-            bindings = <&kp RCTRL>;
-            key-positions = <46 45>;
-        };
-
-        lalt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <30 31>;
-        };
-
-        ralt {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <45 44>;
-        };
-
-        lcmd {
-            bindings = <&kp LCMD>;
-            key-positions = <31 32>;
-        };
-
-        rcmd {
-            bindings = <&kp RCMD>;
-            key-positions = <44 43>;
-        };
     };
 
     keymap {
