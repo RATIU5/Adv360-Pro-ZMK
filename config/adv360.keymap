@@ -78,11 +78,11 @@
 
         default_layer {
             bindings = <
-     &none    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5  &none                                                          &tog 4  &kp NUMBER_6       &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0          &none
-&kp DELETE           &kp Q         &kp W         &kp F             &kp P         &kp B  &none                                                           &none         &kp J              &kp L          &kp U         &kp Y  &kp SINGLE_QUOTE  &kp BACKSPACE
-   &kp TAB           &kp A         &kp R         &kp S             &kp T         &kp G  &none  &none  &none  &none  &none  &none  &none                 &none         &kp M              &kp N          &kp E         &kp I             &kp O      &kp ENTER
-&kp ESCAPE           &kp Z         &kp X         &kp C             &kp D         &kp V  &none  &none  &none  &none  &none  &none  &none                 &none         &kp K              &kp H      &commsemi     &pericolo          &queexcl     &kp ESCAPE
-     &none  &kp LEFT_SHIFT     &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND                &mo 2  &mo 1  &none                &none  &mo 3  &hm LEFT_SHIFT SPACE                &kp RIGHT_COMMAND  &kp RIGHT_ALT     &kp RCTRL   &kp RIGHT_SHIFT          &none
+           &kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5  &none                                                          &tog 4  &kp NUMBER_6       &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0             &kp ESCAPE
+           &kp DELETE           &kp Q         &kp W         &kp F             &kp P         &kp B  &none                                                           &none         &kp J              &kp L          &kp U         &kp Y  &kp SINGLE_QUOTE          &kp BACKSPACE
+              &kp TAB           &kp A         &kp R         &kp S             &kp T         &kp G  &none  &none  &none  &none  &none  &none  &none                 &none         &kp M              &kp N          &kp E         &kp I             &kp O              &kp ENTER
+    &kp LS(LA(LCTRL))           &kp Z         &kp X         &kp C             &kp D         &kp V  &none  &none  &none  &none  &none  &none  &none                 &none         &kp K              &kp H      &commsemi     &pericolo          &queexcl      &kp LS(LA(RCTRL))
+&kp LS(LA(LG(LCTRL)))  &kp LEFT_SHIFT     &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND                &mo 2  &mo 1  &none                &none  &mo 3  &hm LEFT_SHIFT SPACE                &kp RIGHT_COMMAND  &kp RIGHT_ALT     &kp RCTRL   &kp RIGHT_SHIFT  &kp LS(LA(LG(RCTRL)))
             >;
         };
 
@@ -116,7 +116,7 @@
             >;
         };
 
-        layer_4 {
+        qwerty {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &tog 0                                                  &trans  &trans  &trans     &trans     &trans    &trans  &trans
 &trans   &kp Q   &kp W   &kp E   &kp R   &kp T  &trans                                                  &trans   &kp Y   &kp U      &kp I      &kp O     &kp P  &trans
