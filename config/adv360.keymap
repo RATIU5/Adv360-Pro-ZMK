@@ -73,7 +73,7 @@
             >;
         };
 
-        fn {
+        symbols {
             bindings = <
 &kp F1     &kp F2          &kp F3                &kp F4         &kp F5        &kp F6   &none                                       &none         &kp F7     &kp F8                 &kp F9           &kp F10      &kp F11  &kp F12
 &trans  &kp CARET   &kp LESS_THAN      &kp LEFT_BRACKET       &kp PIPE  &kp QUESTION   &none                                       &none       &kp EXCL     &kp AT      &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp PERCENT   &trans
