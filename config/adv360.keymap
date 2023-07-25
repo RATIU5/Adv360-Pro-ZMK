@@ -42,7 +42,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "SEMICOMMA";
             bindings =
-                <&kp KP_COMMA>,
+                <&kp COMMA>,
                 <&kp SEMI>;
 
             #binding-cells = <0>;
@@ -65,11 +65,11 @@
 
         default_layer {
             bindings = <
-     &none  &kp N1  &kp N2    &kp N3     &kp N4  &kp N5     &none                                                                                                  &none  &kp N6    &kp N7        &kp N8      &kp N9   &kp N0          &none
-&kp ESCAPE   &kp Q   &kp W     &kp F      &kp P   &kp B     &none                                                                                                  &none   &kp J     &kp L         &kp U       &kp Y  &kp SQT     &kp ESCAPE
-&kp DELETE   &kp A   &kp R     &kp S      &kp T   &kp G  &kp HOME  &kp LEFT_SHIFT  &kp LEFT_CONTROL      &kp RIGHT_CONTROL  &kp RIGHT_SHIFT                      &kp END   &kp M     &kp N         &kp E       &kp I    &kp O  &kp BACKSPACE
-   &kp TAB   &kp Z   &kp X     &kp C      &kp D   &kp V                                &kp LEFT_ALT          &kp RIGHT_ALT                                                 &kp K     &kp H     &percolon  &semicomma  &quexcl     &kp RETURN
-     &none   &none   &none  &kp LEFT  &kp RIGHT             &mo 2           &mo 1      &kp LEFT_GUI               &kp RGUI            &mo 3  &spc_shft RIGHT_SHIFT SPACE          &kp DOWN  &kp UP_ARROW       &none    &none          &none
+&kp ESCAPE          &kp N1            &kp N2        &kp N3            &kp N4  &kp N5     &none                                                                                                  &none  &kp N6             &kp N7         &kp N8             &kp N9           &kp N0     &kp ESCAPE
+   &kp DEL           &kp Q             &kp W         &kp F             &kp P   &kp B     &none                                                                                                  &none   &kp J              &kp L          &kp U              &kp Y          &kp SQT  &kp BACKSPACE
+   &kp TAB           &kp A             &kp R         &kp S             &kp T   &kp G  &kp HOME  &kp LEFT_SHIFT  &kp LEFT_CONTROL      &kp RIGHT_CONTROL  &kp RIGHT_SHIFT                      &kp END   &kp M              &kp N          &kp E              &kp I            &kp O     &kp RETURN
+   &kp TAB           &kp Z             &kp X         &kp C             &kp D   &kp V                                &kp LEFT_ALT          &kp RIGHT_ALT                                                 &kp K              &kp H      &percolon         &semicomma          &quexcl     &kp RETURN
+     &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND             &mo 2           &mo 1      &kp LEFT_GUI               &kp RGUI            &mo 3  &spc_shft RIGHT_SHIFT SPACE          &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT          &none
             >;
         };
 
