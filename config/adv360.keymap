@@ -27,7 +27,7 @@
 &kp ESCAPE   &kp Q   &kp W     &kp F      &kp P   &kp B     &none                                                                                &none   &kp J     &kp L         &kp U    &kp Y   &kp SQT     &kp ESCAPE
 &kp DELETE   &kp A   &kp R     &kp S      &kp T   &kp G  &kp HOME  &kp LEFT_SHIFT  &kp LEFT_CONTROL      &kp RIGHT_CONTROL  &kp RIGHT_SHIFT    &kp END   &kp M     &kp N         &kp E    &kp I     &kp O  &kp BACKSPACE
    &kp TAB   &kp Z   &kp X     &kp C      &kp D   &kp V                                &kp LEFT_ALT          &kp RIGHT_ALT                               &kp K     &kp H     &kp COMMA  &kp DOT  &kp FSLH     &kp RETURN
-     &none   &none   &none  &kp LEFT  &kp RIGHT          &kp BSPC         &kp DEL      &kp LEFT_GUI               &kp RGUI        &kp ENTER  &kp SPACE          &kp DOWN  &kp UP_ARROW    &none     &none          &none
+     &none   &none   &none  &kp LEFT  &kp RIGHT             &mo 2           &mo 1      &kp LEFT_GUI               &kp RGUI            &mo 3  &kp SPACE          &kp DOWN  &kp UP_ARROW    &none     &none          &none
             >;
         };
 
