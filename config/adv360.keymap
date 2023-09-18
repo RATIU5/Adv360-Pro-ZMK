@@ -85,11 +85,11 @@
 
         arrows {
             bindings = <
-&trans  &trans      &trans          &trans        &trans     &trans  &trans                                      &trans  &trans          &trans          &trans        &trans           &trans         &trans
-&trans  &kp DELETE  &kp DEL         &kp UP_ARROW  &trans     &trans  &trans                                      &trans  &trans          &trans          &trans        &kp BACKSPACE    &kp BACKSPACE  &trans
-&trans  &kp TAB     &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp ENTER      &trans
-&trans  &kp ESC     &trans          &trans        &trans     &trans                  &trans      &trans                  &trans          &trans          &trans        &trans           &kp ESC        &trans
-&trans  &trans      &trans          &trans        &trans             &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans         &trans
+&trans  &trans      &trans          &trans        &trans     &trans  &trans                                      &trans  &trans  &trans    &trans    &trans        &trans         &trans
+&trans  &trans      &trans          &kp UP_ARROW  &trans     &trans  &trans                                      &trans  &trans  &trans    &trans    &trans        &trans         &trans
+&trans  &trans      &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT      &trans
+&trans  &kp DELETE  &kp TAB         &trans        &trans     &trans                  &trans      &trans                  &trans  &trans    &trans    &kp RET       &kp BACKSPACE  &trans
+&trans  &trans      &trans          &trans        &trans             &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans    &trans        &trans         &trans
             >;
         };
 
