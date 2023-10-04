@@ -58,6 +58,86 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+        lparen: lparen {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LPAREN";
+            bindings =
+                <&kp LEFT_PARENTHESIS>,
+                <&kp KP_NUMBER_4>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        rparen: rparen {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RPAREN";
+            bindings =
+                <&kp RIGHT_PARENTHESIS>,
+                <&kp KP_NUMBER_7>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        lbracket: lbracket {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LBRACKET";
+            bindings =
+                <&kp LEFT_BRACKET>,
+                <&kp KP_NUMBER_2>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        rbracket: rbracket {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RBRACKET";
+            bindings =
+                <&kp RIGHT_BRACKET>,
+                <&kp KP_NUMBER_9>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        lbrace: lbrace {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LBRACE";
+            bindings =
+                <&kp LEFT_BRACE>,
+                <&kp KP_NUMBER_3>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        rbrace: rbrace {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RBRACE";
+            bindings =
+                <&kp RIGHT_BRACE>,
+                <&kp KP_NUMBER_8>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        langle: langle {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LANGLE";
+            bindings =
+                <&kp LESS_THAN>,
+                <&kp KP_NUMBER_5>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        rangle: rangle {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RANGLE";
+            bindings =
+                <&kp GREATER_THAN>,
+                <&kp KP_NUMBER_6>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
@@ -65,11 +145,11 @@
 
         default_layer {
             bindings = <
-&none       &kp N1          &kp N2            &kp N3        &kp N4            &kp N5  &none                                                                            &none                        &kp N6  &kp N7             &kp N8         &kp N9             &kp N0            &none
-&kp DELETE  &kp Q           &kp W             &kp F         &kp P             &kp B   &none                                                                            &none                        &kp J   &kp L              &kp U          &kp Y              &kp SINGLE_QUOTE  &kp BACKSPACE
-&kp TAB     &kp A           &kp R             &kp S         &kp T             &kp G   &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL      &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &none                        &kp M   &kp N              &kp E          &kp I              &kp O             &kp ENTER
-&kp ESCAPE  &kp Z           &kp X             &kp C         &kp D             &kp V                          &kp LEFT_ALT          &kp RIGHT_ALT                                                    &kp K   &kp H              &semicomma     &percolon          &quexcl           &kp ESCAPE
-&none       &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND          &mo 2  &mo 1           &kp LEFT_GUI          &kp RGUI           &mo 3            &spc_shft RIGHT_SHIFT SPACE          &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT   &none
+&none       &kp N1          &kp N2            &kp N3        &kp LEFT_PARENTHESIS  &kp N5  &none                                                                            &none                        &kp N6  &kp N7             &kp N8         &kp N9             &kp N0            &none
+&kp DELETE  &kp Q           &kp W             &kp F         &kp P                 &kp B   &none                                                                            &none                        &kp J   &kp L              &kp U          &kp Y              &kp SINGLE_QUOTE  &kp BACKSPACE
+&kp TAB     &kp A           &kp R             &kp S         &kp T                 &kp G   &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL      &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &none                        &kp M   &kp N              &kp E          &kp I              &kp O             &kp ENTER
+&kp ESCAPE  &kp Z           &kp X             &kp C         &kp D                 &kp V                          &kp LEFT_ALT          &kp RIGHT_ALT                                                    &kp K   &kp H              &semicomma     &percolon          &quexcl           &kp ESCAPE
+&none       &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND              &mo 2  &mo 1           &kp LEFT_GUI          &kp RGUI           &mo 3            &spc_shft RIGHT_SHIFT SPACE          &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT   &none
             >;
         };
 
