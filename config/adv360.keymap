@@ -138,6 +138,26 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+        plus1: plus1 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PLUS1";
+            bindings =
+                <&kp PLUS>,
+                <&kp KP_NUMBER_1>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        minus0: minus0 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MINUS0";
+            bindings =
+                <&kp KP_MINUS>,
+                <&kp KP_NUMBER_0>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
@@ -145,11 +165,11 @@
 
         default_layer {
             bindings = <
-&none       &kp N1          &kp N2            &kp N3        &kp LEFT_PARENTHESIS  &kp N5  &none                                                                            &none                        &kp N6  &kp N7             &kp N8         &kp N9             &kp N0            &none
-&kp DELETE  &kp Q           &kp W             &kp F         &kp P                 &kp B   &none                                                                            &none                        &kp J   &kp L              &kp U          &kp Y              &kp SINGLE_QUOTE  &kp BACKSPACE
-&kp TAB     &kp A           &kp R             &kp S         &kp T                 &kp G   &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL      &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &none                        &kp M   &kp N              &kp E          &kp I              &kp O             &kp ENTER
-&kp ESCAPE  &kp Z           &kp X             &kp C         &kp D                 &kp V                          &kp LEFT_ALT          &kp RIGHT_ALT                                                    &kp K   &kp H              &semicomma     &percolon          &quexcl           &kp ESCAPE
-&none       &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND              &mo 2  &mo 1           &kp LEFT_GUI          &kp RGUI           &mo 3            &spc_shft RIGHT_SHIFT SPACE          &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT   &none
+&none       &plus1          &lbracket         &lbrace       &lparen           &langle  &none                                                                            &none                        &rangle  &rparen            &rbrace        &rbracket          &minus0           &none
+&kp DELETE  &kp Q           &kp W             &kp F         &kp P             &kp B    &none                                                                            &none                        &kp J    &kp L              &kp U          &kp Y              &kp SINGLE_QUOTE  &kp BACKSPACE
+&kp TAB     &kp A           &kp R             &kp S         &kp T             &kp G    &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL      &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &none                        &kp M    &kp N              &kp E          &kp I              &kp O             &kp ENTER
+&kp ESCAPE  &kp Z           &kp X             &kp C         &kp D             &kp V                           &kp LEFT_ALT          &kp RIGHT_ALT                                                    &kp K    &kp H              &semicomma     &percolon          &quexcl           &kp ESCAPE
+&none       &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND           &mo 2  &mo 1           &kp LEFT_GUI          &kp RGUI           &mo 3            &spc_shft RIGHT_SHIFT SPACE           &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT   &none
             >;
         };
 
