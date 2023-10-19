@@ -130,6 +130,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <30 31>;
+        };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <32 31>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <43 42>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <41 42>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
