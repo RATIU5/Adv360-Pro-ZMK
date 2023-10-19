@@ -83,7 +83,7 @@
         lbrace: lbrace {
             compatible = "zmk,behavior-mod-morph";
             label = "LBRACE";
-            bindings = <&kp LEFT_BRACE>, <&kp KP_NUMBER_3>;
+            bindings = <&kp LEFT_BRACE>, <&kp NUMBER_3>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
