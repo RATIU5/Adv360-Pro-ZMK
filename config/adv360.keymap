@@ -191,9 +191,9 @@
             bindings = <
 &kp GRAVE     &plus1          &lbracket         &lbrace       &lparen           &langle  &none                                                  &none                        &rangle  &rparen            &rbrace        &rbracket          &minus0          &kp BACKSLASH
 &at_hash      &kp Q           &kp W             &kp F         &kp P             &kp B    &none                                                  &none                        &kp J    &kp L              &kp U          &kp Y              &kp SQT          &equal_under
-&dollar_perc  &kp A           &kp R             &kp S         &kp T             &kp G    &none    &kp DEL        &none      &none  &kp ESCAPE   &none                        &kp M    &kp N              &kp E          &kp I              &kp O            &amp_caret
+&dollar_perc  &kp A           &kp R             &kp S         &kp T             &kp G    &none          &kp DEL  &none      &none  &kp ESCAPE   &none                        &kp M    &kp N              &kp E          &kp I              &kp O            &amp_caret
 &none         &kp Z           &kp X             &kp C         &kp D             &kp V                            &none      &none                                            &kp K    &kp H              &semicomma     &percolon          &quexcl          &kp SLASH
-&none         &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND           &kp TAB  &kp BACKSPACE  &none      &none  &lt 3 ENTER  &spc_shft RIGHT_SHIFT SPACE           &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &none
+&none         &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND           &kp BACKSPACE  &kp TAB  &none      &none  &lt 3 ENTER  &spc_shft RIGHT_SHIFT SPACE           &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &none
             >;
         };
 
