@@ -197,11 +197,11 @@
 
         symbols {
             bindings = <
-&trans  &trans         &trans            &trans          &trans                &trans            &none                                       &none   &trans             &trans                 &trans           &trans             &trans            &trans
-&trans  &kp TILDE      &kp AT            &kp HASH        &kp DOLLAR            &kp PERCENT       &none                                       &none   &kp CARET          &kp AMPS               &kp ASTRK        &kp MINUS          &kp EQUAL         &trans
-&trans  &kp LESS_THAN  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp UNDER         &none   &trans  &trans      &trans  &trans  &none   &kp PLUS           &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GREATER_THAN  &trans
-&trans  &kp GRAVE      &kp PIPE          &kp SLASH       &kp BACKSLASH         &kp SINGLE_QUOTE                  &trans      &trans                  &kp DOUBLE_QUOTES  &kp COMMA              &kp SEMICOLON    &kp COLON          &kp PERIOD        &trans
-&trans  &trans         &trans            &trans          &trans                                  &trans  &trans  &trans      &trans  &trans  &trans                     &trans                 &trans           &trans             &trans            &trans
+&trans  &trans                    &trans                  &trans                   &trans                             &trans            &none                                       &none   &trans             &trans                               &trans                     &trans                   &trans                        &trans
+&trans  &kp TILDE                 &kp AT                  &kp HASH                 &kp DOLLAR                         &kp PERCENT       &none                                       &none   &kp CARET          &kp AMPS                             &kp ASTRK                  &kp MINUS                &kp EQUAL                     &trans
+&trans  &hm LEFT_SHIFT LESS_THAN  &hm LCTRL LEFT_BRACKET  &hm LEFT_ALT LEFT_BRACE  &hm LEFT_COMMAND LEFT_PARENTHESIS  &kp UNDER         &none   &trans  &trans      &trans  &trans  &none   &kp PLUS           &hm RIGHT_COMMAND RIGHT_PARENTHESIS  &hm RIGHT_ALT RIGHT_BRACE  &hm RCTRL RIGHT_BRACKET  &hm RIGHT_SHIFT GREATER_THAN  &trans
+&trans  &kp GRAVE                 &kp PIPE                &kp SLASH                &kp BACKSLASH                      &kp SINGLE_QUOTE                  &trans      &trans                  &kp DOUBLE_QUOTES  &kp COMMA                            &kp SEMICOLON              &kp COLON                &kp PERIOD                    &trans
+&trans  &trans                    &trans                  &trans                   &trans                                               &trans  &trans  &trans      &trans  &trans  &trans                     &trans                               &trans                     &trans                   &trans                        &trans
             >;
         };
 
