@@ -189,7 +189,7 @@
             bindings = <
 &none  &none             &none        &none           &none               &none  &none                                                    &none                        &none  &none                &none            &none        &none              &none
 &none  &kp Q             &kp W        &kp F           &kp P               &kp B  &none                                                    &none                        &kp J  &kp L                &kp U            &kp Y        &kp SQT            &none
-&none  &mt LEFT_SHIFT A  &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_COMMAND T  &kp G  &none      &none      &none      &none  &none            &none                        &kp M  &mt RIGHT_COMMAND N  &mt RIGHT_ALT E  &mt RCTRL I  &mt RIGHT_SHIFT O  &none
+&none  &hm LEFT_SHIFT A  &hm LCTRL R  &hm LEFT_ALT S  &hm LEFT_COMMAND T  &kp G  &none      &none      &none      &none  &none            &none                        &kp M  &hm RIGHT_COMMAND N  &hm RIGHT_ALT E  &hm RCTRL I  &hm RIGHT_SHIFT O  &none
 &none  &kp Z             &kp X        &kp C           &kp D               &kp V                        &none      &none                                                &kp K  &kp H                &semicomma       &percolon    &quexcl            &none
 &none  &none             &none        &none           &none                      &lt 1 RET  &lt 2 TAB  &none      &none  &lt 3 BACKSPACE  &spc_shft RIGHT_SHIFT SPACE         &none                &none            &none        &none              &none
             >;
